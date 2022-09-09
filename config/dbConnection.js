@@ -4,7 +4,7 @@ const connMySQL = function(){
 	return mysql.createConnection({
 			host : 'localhost',
 			user : 'root',
-			password : 'root',
+			password : 'ifms',
 			database : 'cadastro_usuarios'
 		});
 }
